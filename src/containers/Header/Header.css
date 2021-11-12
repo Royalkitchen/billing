@@ -1,0 +1,33 @@
+.navbar {
+  min-height: 60px;
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  color: antiquewhite;
+  /* width: 80%; */
+  padding: 0 5%;
+}
+
+.logo,
+.heading,
+.date-time {
+  width: 33%;
+  color: #d19400;
+}
+
+.heading {
+  display: flex;
+  justify-content: center;
+  font-family: 'Black Ops One', cursive;
+  font-size: 40px;
+}
+
+.date-time {
+  display: flex;
+  flex-direction: column;
+  font-size: medium !important;
+  align-items: flex-end;
+  padding: 0;
+}
